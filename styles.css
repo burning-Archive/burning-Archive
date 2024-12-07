@@ -1,0 +1,124 @@
+body{
+        font-family: Verdana;
+}
+
+h1 {
+        padding-top: 60px;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 300%;
+}
+hidden {
+        color: #574ba7;
+        font-size: 5px;
+        margin: 0;
+        padding: 0;
+}
+
+.center {
+        margin: 5%;
+        margin-top: 0%;
+        padding: 20%;
+        padding-top:20px;
+        padding-bottom:0;
+        border-radius: 10px;
+}
+.center p {
+        margin: 0;
+}
+
+.index_Back {
+        color:#00eeffce;
+        background-color:#574ba7;
+        padding: 10px;
+}
+
+.top {
+        position:fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        background-color:#113547;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+        white-space-collapse: nowrap;
+        margin-bottom: 50px;
+}
+
+.top a {
+        margin: 15px;
+        padding: 10px;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        color: #64c2ec;
+        background-color:#277ca5;
+        width: 200px;
+        border-radius: 10px;
+        display:inline-block;
+        font-size: large;
+        transition-duration: 0.4s;
+}
+
+.top a:hover, .top a.active {
+        color:#113547;
+        background-color:#64c2ec;
+        font-weight: 600;
+        transition-duration: 0.3s;
+}
+
+.top a:hover{
+        margin: 5px;
+        padding: 15px;
+}
+
+
+.bottom {
+        color: #00eeffce;
+        text-decoration: none;
+        font-size: 13px;
+        position: fixed;
+        bottom: 0;
+        background-color:rebeccapurple;
+        margin: 10px;
+        padding: 12px;
+        border-radius: 10px;
+        width: 15%;
+}
+
+.mobile-only {
+        display: none;
+}
+.desktop-only {
+        display: contents;
+}
+@media only screen and (max-width: 700px){
+        .center {
+                margin: 0;
+                padding: 15px;
+        }
+
+        .top a {
+                margin: 3%;
+                padding: 3%;
+                padding-bottom: 13px;
+                padding-top: 13px;
+                width: 35%;
+        }
+        .top a:hover{
+                margin: 1.5%;
+                padding: 4%;
+        }
+
+        .bottom {
+                font-size: 14px;
+                width: 30%;
+        }
+
+        .mobile-only {
+                display: contents;
+        }
+        .desktop-only {
+                display: none;
+        }
+}
