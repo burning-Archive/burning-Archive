@@ -53,7 +53,7 @@ hidden {
         padding-top: 13px;
         color: #64c2ec;
         background-color:#277ca5;
-        width: 200px;
+        width: 150px;
         border-radius: 10px;
         display:inline-block;
         font-size: large;
@@ -118,11 +118,14 @@ hidden {
         }
 
         .top a {
-                margin: 3%;
-                padding: 3%;
+                margin: 1%;
+                padding: 1%;
                 padding-bottom: 13px;
                 padding-top: 13px;
-                width: 35%;
+                margin-top: 3%;
+                margin-bottom: 3%;
+                width: 24%;
+                font-size: medium;
         }
         .top a:hover{
                 margin: 1.5%;
